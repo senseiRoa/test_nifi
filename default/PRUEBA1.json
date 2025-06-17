@@ -32,12 +32,12 @@
       "name" : "",
       "partitioningAttribute" : "",
       "prioritizers" : [ ],
-      "selectedRelationships" : [ "success", "failure" ],
+      "selectedRelationships" : [ "failure", "success" ],
       "source" : {
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "1f1abd11-57a6-36ee-b59b-216e867f68fd",
-        "name" : "ExecuteSQLProd",
+        "name" : "ExecuteSQLDemo",
         "type" : "PROCESSOR"
       },
       "zIndex" : 1
@@ -234,11 +234,11 @@
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "1f1abd11-57a6-36ee-b59b-216e867f68fd",
       "maxBackoffPeriod" : "10 mins",
-      "name" : "ExecuteSQLProd",
+      "name" : "ExecuteSQLDemo",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -824.0,
-        "y" : -832.0
+        "x" : -856.0,
+        "y" : -848.0
       },
       "properties" : {
         "esql-max-rows" : "0",
